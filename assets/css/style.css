@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+body{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+.info{
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.map{
+
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+table,th,td{
+    border: 1px solid black;
+}
+.ss{
+    text-align: center;
+    display: flex;
+}
+.number{
+    text-align: center;
+    color: black;
+    position: relative;
+}
+.description{
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    border: 1px solid black;
+    z-index: 9999;
+    display: none;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 20px;
+    width: 270px;
+    height: 110px;
+    background: rgb(211, 209, 209);
+}
+.tomail{
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    padding: 15px 10px;
+    display: none;
+    margin-top: 20px;
+    transition: all 0.2s;
+}
+.tomail:hover{
+    background: grey;
+
+}

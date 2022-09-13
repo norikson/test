@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    <section class="info">
+        <table>
+            Введите размер матрицы MxM:
+           <td>M</td><th><input class="size" type="number" size="10" max="55"></th>
+        </table>
+        <span><button class ='generateTable'>Сгенерировать</button></span>
+    </section>
+    <section class="map">
+        <div class="canvas">
+        </div>
+        <section style="display:none;margin-top: 10px;" class="ss">
+            Введите диапазон от 0 до 9, для автоматического заполнения:
+            <span><input id="min" type="number" size="1" min="0" max="8" /></span>-<input id="max" type="number" size="1" min='1' max="9"></span>
+            <button class="numberGeneration">Заполнить матрицу</button>
+            <br>
+            <button class="newArray">Сформировать новую матрицу</button>
+        </section>
+    <div class="newcanvas">
+    </div>
+    <a class="tomail" href="mail.html" target="_blank">отправить результат</a>
+    <section class="description">
+    </section>
+    </section>
+
+    
+
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
